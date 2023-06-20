@@ -144,6 +144,7 @@ A segmentation mask, similar to the ones produced by S3segmenter. Nextflow will 
 | `--compartment` | Predict nuclear or whole-cell segmentation. | `"whole-cell"` |
 | `--image-mpp` | The resolution of the image in microns-per-pixel. A value of 0.5 corresponds to 20x zoom. | `0.5` |
 | `--batch-size` | Number of images to predict on per batch. | `4` |
+| `--membrane-channel` | The numerical index of the channel(s) from `membrane-image` to select. If multiple values are passed, the channels will be summed. | `None` |
 
 ---
 
